@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.lebron-box {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 3s ease, border 3s ease, box-shadow 3s ease;
+    border: 20px solid transparent; /* Initially, no visible border */
+}
+
+.lebron-box:hover {
+    background-color: #66c2ff;
+    border: 20px solid #fff; /* Visible border on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Box shadow on hover */
+}

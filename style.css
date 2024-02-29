@@ -1,3 +1,15 @@
+.centered-image {
+    display: block;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 500px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 10px; /* Adjust the padding for spacing */
+    box-sizing: border-box;
+}
+
 body {
     background-color: #333;
     color: white;
@@ -26,4 +38,11 @@ h1 {
 
 .player-box:hover {
     background-color: #777;
+}
+.white-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
